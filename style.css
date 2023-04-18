@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrap {
+    height: 80%;
+    height: 650px;
+    margin: auto;
+    margin-top: 30px;
+    border: 5px solid blue;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: azure;
+    /* justify-content: space-around; */
+    align-items: flex-start;
+    /* flex-wrap: wrap; */
+    align-content: space-around;
+    justify-content: space-around;
+}
+.wrap .box{
+width: 150px;
+height: 150px;
+border: 5px solid green;
+background-color: red;
+color: aliceblue;
+font-size: 35px;
+}
+.wrap .box:nth-child(odd)
+{
+background-color: yellow;
+  flex-basis: 30%;
+
+}
